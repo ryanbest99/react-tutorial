@@ -12,6 +12,7 @@ body {
 }
 
 .booklist {
+  border: 3px solid blue;
   width: 90vw;
   max-width: 1170px;
   margin: 5rem auto;
@@ -23,4 +24,15 @@ body {
   .booklist {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.book {
+  border: 3px solid red;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.book h1 {
+  margin-top: 0.5rem;
 }
